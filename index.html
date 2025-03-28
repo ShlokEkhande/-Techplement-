@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CourseCraze</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+  </head>
+  <body>
+    <nav class="navbar">
+      <b>CourseCraze</b>
+
+      <div class="buttons">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <section id="home" data-aos="fade-left">
+      <div class="home">
+        <div class="headline">
+          <span> Master Programming like never before</span>
+
+          <p class="main-text">
+            Join thousands of students who are transforming their coding careers
+            with our comprehensive Data Structures and Algorithms course. Get
+            ready to crack interviews at top tech companies. Introducing
+            CourseCraze 
+          </p>
+
+          <a href="#courses" class="course-btn">Buy Courses</a>
+        </div>
+
+        <div class="main-img">
+          <img
+            src="./Images/dashbord.webp"
+            width="110%"
+            style="border-radius: 10px"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="about" data-aos="fade-down">
+      <div class="about">
+        <h1 class="heading-about">About Us</h1>
+        <p class="about-para">
+          We offer high-quality courses to help you grow in programming and
+          essential skills. Whether you're a beginner or an expert, our courses
+          empower you to excel in the tech industry. Start learning today!
+        </p>
+      </div>
+    </section>
+
+    <section id="courses" data-aos="fade-up" >
+      <div class="main-container">
+        <h1 class="heading">Our Courses</h1>
+
+        <div class="card-container">
+          <div class="card" >
+            <img src="./Images/DSA.webp" alt="" width="100%" />
+            <h1>Data Structures and Algorithms</h1>
+            <p class="rupees">4500₹</p>
+            <a href="l1.html" class="buy-btn">Buy Now</a>
+          </div>
+          <div class="card">
+            <img src="./Images/DSA.2.o.webp" alt="" width="100%" />
+            <h1>Data Structures and Algorithms 2.O</h1>
+            <p class="rupees">4100₹</p>
+            <a href="l2.html" class="buy-btn">Buy Now</a>
+          </div>
+          <div class="card">
+            <img src="./Images/LowDesign.webp" alt="" width="100%" />
+            <h1>Low Level Design</h1>
+            <p class="rupees">2000₹</p>
+            <a href="l3.html" class="buy-btn">Buy Now</a>
+          </div>
+          <div class="card">
+            <img src="./Images/WebDev.webp" alt="" width="100%" />
+            <h1>Web Development</h1>
+            <p class="rupees">2100₹</p>
+            <a href="l4.html" class="buy-btn">Buy Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="btm-container" id="contact" data-aos="fade-down">
+      <div>
+        <h1 class="contact-us">Contact Us</h1>
+
+        <form onsubmit="submitHandler()" id="form" class="form">
+          <input type="text" id="name" placeholder="Enter Name" required />
+          <input type="email" id="name" placeholder="Enter email" required />
+          <textarea
+            required
+            name="messege"
+            id="messege"
+            rows="7"
+            cols="30"
+            placeholder="Any Messege"
+          ></textarea>
+          <button class="submitbtn">Submit</button>
+
+          <div class="links">
+            <img src="./Images/ig.png" alt="" width="40px" />
+            <img src="./Images/linkedin.png" alt="" width="40px" />
+            <img src="./Images/Facebook.png" alt="" width="40px" />
+          </div>
+          <p class="copy">&copy; 2025 CourseCraze. All Rights Reserved.</p>
+        </form>
+      </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="script.js" defer></script> 
+  </body>
+</html>
